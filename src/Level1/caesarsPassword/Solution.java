@@ -1,6 +1,4 @@
-package Level1.CaesarsPassword;
-
-import java.util.Arrays;
+package Level1.caesarsPassword;
 
 //시저암호
 public class Solution {
