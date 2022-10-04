@@ -6,9 +6,9 @@ public class Solution {
     public static int solution(int[] d, int budget) {
         Arrays.sort(d);
         int max = 0, sum = 0, cnt = 0;
-        for(int i = 0; i < d.length; i++){
-            if (budget >= sum + d[i]) {
-                ;sum += d[i];
+        for (int j : d) {
+            if (budget >= sum + j) {
+                sum += j;
                 cnt++;
                 max = cnt;
             }
