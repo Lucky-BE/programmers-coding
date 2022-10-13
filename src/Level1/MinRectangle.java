@@ -1,6 +1,7 @@
-package Level1.minRectangle;
+package Level1;
 
-public class Solution {
+//최소직사각형
+public class MinRectangle {
     public static int solution(int[][] sizes) {
         int maxW = 0, maxH = 0;
         for (int i = 0; i < sizes.length; i++) {

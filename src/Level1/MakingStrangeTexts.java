@@ -1,6 +1,7 @@
-package Level1.MakingStrangeTexts;
+package Level1;
 
-public class Solution {
+//이상한 문자열 만들기
+public class MakingStrangeTexts {
     public static String solution(String s) {
         String answer = "";
         StringBuilder sb = new StringBuilder(answer);

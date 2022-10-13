@@ -1,8 +1,9 @@
-package Level1.budget;
+package Level1;
 
 import java.util.Arrays;
 
-public class Solution {
+//예산
+public class Budget {
     public static int solution(int[] d, int budget) {
         Arrays.sort(d);
         int max = 0, sum = 0, cnt = 0;

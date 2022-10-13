@@ -1,6 +1,7 @@
-package Level1.makePrimeNum;
+package Level1;
 
-public class Solution {
+//소수 만들기
+public class MakePrimeNum {
     public static int solution(int[] nums) {
         int len = nums.length, value, cnt = 0, m;
         for (int i = 0; i < len; i++) {

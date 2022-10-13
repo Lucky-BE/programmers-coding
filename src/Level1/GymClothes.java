@@ -1,8 +1,9 @@
-package Level1.gymClothes;
+package Level1;
 
 import java.util.Arrays;
 
-public class Solution {
+//체육복
+public class GymClothes {
     public static int solution(int n, int[] lost, int[] reserve) {
         //n : 총학생 수, lost : 잃어버린 학생 수, reserve : 여벌 가져온 학생 수
         Arrays.sort(lost);

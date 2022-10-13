@@ -1,6 +1,7 @@
-package Level1.numStringEng;
+package Level1;
 
-public class Solution {
+//숫자 문자열과 영단어
+public class NumStringEng {
     public static int solution1(String s) {
         int answer = 0;
         String[] eng = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};

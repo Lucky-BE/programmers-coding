@@ -1,8 +1,7 @@
-package Level1.FindPrimeNum;
+package Level1;
 
-import java.util.Arrays;
-
-public class Solution {
+//소수찾기
+public class FindPrimeNum {
     public static int solution(int n) {
         int answer = 0;
         int[] a = new int[n+1];

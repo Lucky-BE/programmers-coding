@@ -1,8 +1,9 @@
-package Level1.year2016;
+package Level1;
 
 import java.util.Calendar;
 
-public class solution {
+//2016년
+public class Year2016 {
     public static String solution(int a, int b) {
         String[] day_of_week = {"", "SUN","MON","TUE","WED","THU","FRI","SAT"};
         Calendar cal = Calendar.getInstance();

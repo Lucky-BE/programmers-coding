@@ -1,8 +1,9 @@
-package Level1.lottosMaxMin;
+package Level1;
 
 import java.util.Arrays;
 
-public class Solution {
+//로또의 최고순위와 최저순위
+public class LottosMaxMin {
     public static int[] solution(int[] lottos, int[] win_nums) {
         int[] answer = new int[2];
         int max = 0, min = 0, none = 0, cnt = 0;
@@ -13,12 +14,10 @@ public class Solution {
         for (int lotto : lottos) {
             if (lotto == 0) {
                 none++;
-                continue;
             } else {
                 for (int win_num : win_nums) {
                     if (lotto == win_num) {
                         cnt++;
-                        continue;
                     }
                 }
             }

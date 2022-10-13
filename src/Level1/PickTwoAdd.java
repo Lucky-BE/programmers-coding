@@ -1,12 +1,12 @@
-package Level1.PickTwoAdd;
+package Level1;
 
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-public class Solution {
-    //두 개 뽑아서 더하기
+//두 개 뽑아서 더하기
+public class PickTwoAdd {
     public static int[] solution(int[] numbers) {
 
         Set<Integer> setSum = new HashSet<>();
@@ -26,7 +26,6 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        System.out.println(solution(new int[]{2, 1, 3, 4, 1}));
-
+        System.out.println(Arrays.toString(solution(new int[]{2, 1, 3, 4, 1})));
     }
 }

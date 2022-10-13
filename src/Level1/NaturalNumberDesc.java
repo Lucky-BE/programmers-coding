@@ -1,8 +1,9 @@
-package Level1.naturalNumberDesc;
+package Level1;
 
 import java.util.*;
 
-public class Solution {
+//자연수 뒤집어 배열로 만들기
+public class NaturalNumberDesc {
     public static long solution(long n) {
         long answer = 0;
         String[] tmp = Long.toString(n).split("");

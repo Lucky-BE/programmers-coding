@@ -1,7 +1,7 @@
-package Level1.stringHandling;
+package Level1;
 
 //문자열 다루기
-public class Solution {
+public class StringHandling {
     public static boolean solution(String s) {
         boolean answer = true;
         if (s.length() == 4 || s.length() == 6) {

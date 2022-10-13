@@ -1,7 +1,7 @@
-package Level1.caesarsPassword;
+package Level1;
 
 //시저암호
-public class Solution {
+public class CaesarsPassword {
     public static String solution(String s, int n) {
         String answer = "";
         StringBuilder sb = new StringBuilder();
